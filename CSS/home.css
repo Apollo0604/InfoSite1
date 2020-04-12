@@ -1,0 +1,158 @@
+body {
+    /* border: 2px solid purple; */
+    background-color: dimgrey;
+    margin: 0% 20%;
+}
+
+.HeaderContainer {
+    display: flex;
+    border: 1px solid black;
+    background-color: black;
+    justify-content: space-evenly;
+}
+
+.HeaderImg img {
+    width: 20%;
+}
+
+.Header h1 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: red;
+    display: flex;
+    font-size: 3em;
+    height: 100%;
+    align-items: center;
+}
+
+.HeaderNavContainer {
+    display: flex;
+    font-size: 15px;
+    width: 30%;
+    align-items: center;
+}
+
+.NavigationBar {
+    width: 100%;
+}
+
+.NavigationBar a {
+    color: red;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0% 1%;
+}
+
+.NavigationBar a:hover {
+    color: white;
+    border-bottom: 1px solid red;
+    /* text-decoration: underline; */
+    padding: 0% 1%;
+}
+
+.NavigationLinksActive {
+    border-bottom: 1px solid white;
+}
+
+
+/* Welcome Styles */
+.WelcomeContainer {
+    height: 93vh;
+    background-image: url(../IMGS/Home/india.png);
+}
+
+.WelcomeHeader {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20%;
+}
+
+.WelcomeParagraph {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 2% 15%;
+}
+
+.GetStartedButton {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 20px;
+}
+
+.Button {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 1% 2%;
+}
+
+.Button:hover {
+    background-color: red;
+    border: 1px solid red;
+}
+
+.Watermark {
+    font-family: 'Kalam', cursive;
+    color: white;
+    padding-top: 36%;
+    padding-right: 1%;
+    font-size: 20px;
+    text-align: right;
+}
+
+
+/* About Styles */
+.About {
+    height: 50vh;
+    width: 100%;
+    background-image: url(../IMGS/Home/kansasSkyline.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.AboutDescription {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+
+.AboutDescription h2 {
+    border-bottom: 1px solid red;
+    border-right: 1px solid red;
+    padding-right: 2%;
+}
+
+.skillsHeader {
+    margin-right: 5%;
+}
+
+.AboutHeaderContainer {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 5%;
+}
+
+.AboutInfoPanelContainer {
+    display: flex;
+    flex-direction: row;   
+    max-width: 80%;
+    padding: 1% 10%;
+}
+
+.AboutInfoPanelContainer img {
+    width: 10%;
+    padding: 0% 5%
+}
+
+.AboutInfoParagraph {
+    font-size: 20px;
+}
