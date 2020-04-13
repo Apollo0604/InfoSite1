@@ -56,8 +56,14 @@ body {
 
 /* Welcome Styles */
 .WelcomeContainer {
+    border: 1px solid blue;
+
+
+
     height: 93vh;
     background-image: url(../IMGS/Home/india.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .WelcomeHeader {
